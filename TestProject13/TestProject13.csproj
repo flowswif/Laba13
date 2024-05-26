@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.0.4" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.0.4" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Laba13\Laba13.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibrary12_">
+      <HintPath>..\..\ClassLibrary12_4\ClassLibrary12_\bin\Debug\net8.0\ClassLibrary12_.dll</HintPath>
+    </Reference>
+    <Reference Include="ClassLibraryForLab10and11">
+      <HintPath>..\..\..\..\Downloads\ClassLibraryForLab10and11\ClassLibraryForLab10and11\bin\Debug\ClassLibraryForLab10and11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
